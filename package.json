@@ -1,6 +1,6 @@
 {
   "name": "mp4box",
-  "version": "0.5.3",
+  "version": "0.5.1000",
   "description": "JavaScript version of GPAC's MP4Box tool",
   "keywords": [
     "mp4",
@@ -44,6 +44,7 @@
     "qunitjs": "^1.23.0"
   },
   "scripts": {
+    "prepare": "grunt all",
     "test": "grunt test --verbose"
   }
 }
